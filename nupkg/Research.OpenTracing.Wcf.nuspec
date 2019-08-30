@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OpenTracing.Contrib.Wcf</id>
+    <version>0.2.0</version>
+    <title>OpenTracing WCF Instrumentation</title>
+    <authors>Medialogia</authors>
+    <owners>Medialogia</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>OpenTracing instrumentation for WCF.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="OpenTracing" version="[0.12.0]" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\OpenTracing.Contrib.Wcf.dll" target="lib\net461\OpenTracing.Contrib.Wcf.dll" />
+    <file src="..\bin\OpenTracing.Contrib.Wcf.pdb" target="lib\net461\OpenTracing.Contrib.Wcf.pdb" />
+  </files>
+</package>

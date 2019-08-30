@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTracing.Contrib.Wcf", "src\OpenTracing.Contrib.Wcf\OpenTracing.Contrib.Wcf.csproj", "{0A9B6FFE-2BCA-44B5-950F-CDC56F2348A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF1AF5E1-647C-4EA9-99CE-5263EAFE6739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2AC6BCB7-3B20-492E-B1B5-221C4CF11451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTracing.Contrib.Wcf.Client", "test\OpenTracing.Contrib.Wcf.Client\OpenTracing.Contrib.Wcf.Client.csproj", "{49495EDA-AA3F-446C-AB5F-93C0B4AC9737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTracing.Contrib.Wcf.Server", "test\OpenTracing.Contrib.Wcf.Server\OpenTracing.Contrib.Wcf.Server.csproj", "{2551AD28-B201-44A1-8894-CD848395350A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTracing.Contrib.Wcf.Common", "test\OpenTracing.Contrib.Wcf.Common\OpenTracing.Contrib.Wcf.Common.csproj", "{38EA5F52-F278-49F5-863F-D5C8A8C495A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A9B6FFE-2BCA-44B5-950F-CDC56F2348A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9B6FFE-2BCA-44B5-950F-CDC56F2348A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9B6FFE-2BCA-44B5-950F-CDC56F2348A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9B6FFE-2BCA-44B5-950F-CDC56F2348A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49495EDA-AA3F-446C-AB5F-93C0B4AC9737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49495EDA-AA3F-446C-AB5F-93C0B4AC9737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49495EDA-AA3F-446C-AB5F-93C0B4AC9737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49495EDA-AA3F-446C-AB5F-93C0B4AC9737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2551AD28-B201-44A1-8894-CD848395350A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2551AD28-B201-44A1-8894-CD848395350A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2551AD28-B201-44A1-8894-CD848395350A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2551AD28-B201-44A1-8894-CD848395350A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EA5F52-F278-49F5-863F-D5C8A8C495A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EA5F52-F278-49F5-863F-D5C8A8C495A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EA5F52-F278-49F5-863F-D5C8A8C495A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EA5F52-F278-49F5-863F-D5C8A8C495A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A9B6FFE-2BCA-44B5-950F-CDC56F2348A8} = {BF1AF5E1-647C-4EA9-99CE-5263EAFE6739}
+		{49495EDA-AA3F-446C-AB5F-93C0B4AC9737} = {2AC6BCB7-3B20-492E-B1B5-221C4CF11451}
+		{2551AD28-B201-44A1-8894-CD848395350A} = {2AC6BCB7-3B20-492E-B1B5-221C4CF11451}
+		{38EA5F52-F278-49F5-863F-D5C8A8C495A7} = {2AC6BCB7-3B20-492E-B1B5-221C4CF11451}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96FD4E3F-3B40-484E-8D52-88A9E6546F49}
+	EndGlobalSection
+EndGlobal
