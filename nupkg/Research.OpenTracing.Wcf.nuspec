@@ -7,7 +7,11 @@
     <authors>Medialogia</authors>
     <owners>Medialogia</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/Medialogia/OpenTracing.Contrib.Wcf/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Medialogia/OpenTracing.Contrib.Wcf</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/17923631?s=72&amp;v=4</iconUrl>
     <description>OpenTracing instrumentation for WCF.</description>
+    <tags>OpenTracing</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.6.1">
         <dependency id="OpenTracing" version="[0.12.0]" />
@@ -15,7 +19,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\bin\OpenTracing.Contrib.Wcf.dll" target="lib\net461\OpenTracing.Contrib.Wcf.dll" />
-    <file src="..\bin\OpenTracing.Contrib.Wcf.pdb" target="lib\net461\OpenTracing.Contrib.Wcf.pdb" />
+    <file src="lib\net461\OpenTracing.Contrib.Wcf.dll" target="lib\net461\OpenTracing.Contrib.Wcf.dll" />
+    <file src="lib\net461\OpenTracing.Contrib.Wcf.pdb" target="lib\net461\OpenTracing.Contrib.Wcf.pdb" />
   </files>
 </package>

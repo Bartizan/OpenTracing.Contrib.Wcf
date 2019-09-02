@@ -4,7 +4,10 @@ OpenTracing instrumentation for Wcf.
 
 ## Installation
 
-In near future it's planned to publish solution as NuGet package.
+Install the [NuGet package](https://www.nuget.org/packages/OpenTracing.Contrib.Wcf//):
+
+    Install-Package OpenTracing.Contrib.Wcf
+
 
 ## Usage
 
