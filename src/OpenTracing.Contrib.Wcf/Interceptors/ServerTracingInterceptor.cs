@@ -48,8 +48,12 @@ namespace OpenTracing.Contrib.Wcf.Interceptors
                 $"{remoteEndpoint.Address}:{remoteEndpoint.Port}" : "<unknown>";
 
             var host = Dns.GetHostName();
-            var instanceName = instanceContext.GetServiceInstance().GetType().FullName;
-            var operationName = request.Headers.Action.Substring(request.Headers.Action.LastIndexOf("/", StringComparison.OrdinalIgnoreCase) + 1);
+
+            var instance = instanceContext?.GetServiceInstance();
+            var instanceName = (instance != null) ? instance.GetType().FullName : string.Empty;
+            var action = request.Headers.Action;
+            var operationName = !string.IsNullOrEmpty(action) ? 
+                action.Substring(action.LastIndexOf("/", StringComparison.OrdinalIgnoreCase) + 1) : "*";
             var method = $"{instanceName}.{operationName}";
 
             var requestHeaders = request.Headers.Extract();

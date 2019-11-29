@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>OpenTracing.Contrib.Wcf</id>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <title>OpenTracing WCF Instrumentation</title>
     <authors>Medialogia</authors>
     <owners>Medialogia</owners>
@@ -19,7 +19,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="lib\net461\OpenTracing.Contrib.Wcf.dll" target="lib\net461\OpenTracing.Contrib.Wcf.dll" />
-    <file src="lib\net461\OpenTracing.Contrib.Wcf.pdb" target="lib\net461\OpenTracing.Contrib.Wcf.pdb" />
+    <file src="..\bin\OpenTracing.Contrib.Wcf.dll" target="lib\net461\OpenTracing.Contrib.Wcf.dll" />
+    <file src="..\bin\OpenTracing.Contrib.Wcf.pdb" target="lib\net461\OpenTracing.Contrib.Wcf.pdb" />
   </files>
 </package>

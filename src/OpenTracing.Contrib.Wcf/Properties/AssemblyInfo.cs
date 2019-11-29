@@ -7,6 +7,6 @@ using System.Runtime.Serialization;
 
 [assembly: Guid("631093a0-dfa5-4188-8f29-0939bf2cc85d")]
 
-[assembly: AssemblyFileVersion("0.2.0.0")]
+[assembly: AssemblyFileVersion("0.2.1.0")]
 
 [assembly: ContractNamespace("http://opentracing.io/wcf", ClrNamespace = "OpenTracing.Contrib.Wcf")]
